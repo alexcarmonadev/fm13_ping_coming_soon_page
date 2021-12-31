@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Ping coming soon page</title>
+    <script
+      src="https://kit.fontawesome.com/a447d8f9b0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+    <meta
+      name="description"
+      content="Frontend Mentor Challenges are challenges to improve front-end coding skills by creating real projects."
+    />
+    <meta
+      name="keywords"
+      content="html, css, javascript, front-end, websites, frontendmentor"
+    />
+    <meta name="author" content="Alexcarmonadev" />
+  </head>
+  <body>
+    <!-- ------------HEADER------------ -->
+    <header class="header">
+      <img
+        src="assets/images/logo.svg"
+        alt="Logo's Ping"
+        class="header__logo"
+      />
+      <h1 class="header__title">
+        We are launching <span class="header__title--span">soon!</span>
+      </h1>
+      <p class="header__subtitle">Subscribe and get notified</p>
+    </header>
+
+    <!-- ------------MAIN------------ -->
+    <main class="main">
+      <form action="#" class="form">
+        <div class="input-group">
+          <input
+            autocomplete="off"
+            id="email"
+            type="text"
+            class="form__input"
+            placeholder="Your email address..."
+            required
+          />
+          <!-- ------------ALERT------------ -->
+          <p id="alert2" class="alert form__text-alert">
+            Please provide a valid email address
+          </p>
+        </div>
+        <button class="form__button" onclick="getValueInput()">
+          Notify Me
+        </button>
+      </form>
+      <img
+        src="assets/images/illustration-dashboard.png"
+        alt="Illustrated dashboard"
+        class="main__img"
+      />
+    </main>
+
+    <!-- ------------FOOTER------------ -->
+    <footer class="footer">
+      <div class="social">
+        <a href="#" class="social__link"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social__link"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social__link"><i class="fab fa-instagram"></i></a>
+      </div>
+      <p class="footer__copyright">Copiright Ping. All rights reserved.</p>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/alexcarmonadev" target="_blank"
+          >Alexcarmonadev</a
+        >.
+      </p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
